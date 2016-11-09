@@ -1,4 +1,4 @@
-FROM fluent/fluentd:latest-onbuild
+FROM timka/fluentd-docker-image:latest
 MAINTAINER Timur Izhbulatov <timur.izhbulatov@gmail.com>
 WORKDIR /home/fluent
 ENV PATH /home/fluent/.gem/ruby/2.3.0/bin:$PATH
